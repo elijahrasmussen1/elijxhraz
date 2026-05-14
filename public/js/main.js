@@ -1,12 +1,3 @@
-/* handle missing optional icons gracefully */
-const robloxIcon = document.getElementById('roblox-icon');
-if (robloxIcon) {
-  robloxIcon.addEventListener('error', function () {
-    const text = document.createTextNode('⬛');
-    robloxIcon.replaceWith(text);
-  });
-}
-
 /* ─────────────────────────────────────────
    PARTICLE GENERATOR
 ───────────────────────────────────────── */
